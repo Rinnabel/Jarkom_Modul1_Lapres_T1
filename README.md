@@ -112,14 +112,18 @@ Image: [1759.pdf](.//file/1759.pdf)
 
 ## B. Capture Filter  
 ### 11. Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
-`dst port 21 || src port 21`
+```
+dst port 21 || src port 21
+```
 ![11](.//media-ela/image_11.jpg)
 `dst port 21` digunakan untuk menangkap paket menuju ke port 21
 `src port 21` digunakan untuk menangkap paket yang berasal dari port 21
 Untuk mmenangkap paket yang mengandung port 21, sebelumnya kami melakukan koneksi dari FileZilla client menuju ke server.
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
-***src port 80***
+```
+src port 80
+```
 ![12](.//media-ela/image_12.jpg)
 
 
