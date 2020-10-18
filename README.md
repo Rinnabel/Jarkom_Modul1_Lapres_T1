@@ -117,6 +117,7 @@ dst port 21 || src port 21
 ```
 ![11](.//media-ela/image_11.jpg)
 `dst port 21` digunakan untuk menangkap paket menuju ke port 21
+
 `src port 21` digunakan untuk menangkap paket yang berasal dari port 21
 Untuk mmenangkap paket yang mengandung port 21, sebelumnya kami melakukan koneksi dari FileZilla client menuju ke server.
 
