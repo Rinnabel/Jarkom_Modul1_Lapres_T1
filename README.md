@@ -76,6 +76,7 @@ Filter: `ftp-data`
 ![6b](.//media/image11.png)  
 Buka [pdf](.//file/Open%20This.pdf) dalam [zip](.//file/Answer.zip) tersebut  
 ![6c](.//media/image12.png)  
+Image: [Open This.pdf](.//file/Open%20This.pdf)  
 
 ### 7. Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut. `Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"`  
 Filter: `ftp-data`  
