@@ -116,18 +116,36 @@ Image: [1759.pdf](.//file/1759.pdf)
 dst port 21 || src port 21
 ```
 ![11](.//media-ela/image_11.jpg)
-`dst port 21` digunakan untuk menangkap paket menuju ke port 21
+`dst port 21` digunakan untuk menangkap paket menuju ke port 21 sedangkan `src port 21` digunakan untuk menangkap paket yang berasal dari port 21
 
-`src port 21` digunakan untuk menangkap paket yang berasal dari port 21
-Untuk mmenangkap paket yang mengandung port 21, sebelumnya kami melakukan koneksi dari FileZilla client menuju ke server.
+Untuk menangkap paket yang mengandung port 21, sebelumnya kami melakukan koneksi dari FileZilla client menuju ke server.
 
 ### 12. Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 ```
 src port 80
 ```
 ![12](.//media-ela/image_12.jpg)
-
+Untuk menangkap paket yang berasal dari port 80 kita dapat menggunakan filter expression `src` dan `port 80`.
 
 ### 13. Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+```
+dst port 443
+```
+![13](.//media-ela/image_13.jpg)
+Untuk menangkap paket yang menuju port 443 kita dapat menggunakan filter expression `dst` dan `port 443`.
+
+
 ### 14. Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+```
+src host <ip>
+```
+![14](.//media-ela/image_14.jpg)
+Untuk menangkap paket yang berasal dari ip kita, dapat digunakan filter expression `src` dan `host <ip>`. Di mana 192.168.43.218 adalah ip yang kami gunakan.
+
+
 ### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+```
+dst host monta.if.its.ac.id
+```
+![15](.//media-ela/image_15.jpg)
+Untuk menangkap paket yang menuju ke monta.if.its.ac.id kita dapat menggunakan filter expression `dst` dan `host monta.if.its.ac.id`. Di mana 103.94.190.11 merupakan ip milik monta.if.its.ac.id,
