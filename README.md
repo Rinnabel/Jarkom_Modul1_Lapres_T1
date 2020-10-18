@@ -145,7 +145,7 @@ Untuk menangkap paket yang berasal dari ip kita, dapat digunakan filter expressi
 
 ### 15. Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
 ```
-**dst host monta.if.its.ac.id**
+dst host monta.if.its.ac.id
 ```
 ![15](.//media-ela/image_15.jpg)
 Untuk menangkap paket yang menuju ke monta.if.its.ac.id kita dapat menggunakan filter expression `dst` dan `host monta.if.its.ac.id`. Di mana 103.94.190.11 merupakan ip milik monta.if.its.ac.id,
